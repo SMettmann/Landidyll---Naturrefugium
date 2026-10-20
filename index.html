@@ -35,7 +35,56 @@
     @media(max-width:1100px) and (min-width:761px){.nav-wordmark{width:155px}.nav-symbol{width:34px}.nav{padding:0 3vw}.nav-links{gap:15px}}
     @media(max-width:430px){.nav-wordmark{width:149px}.nav-symbol{width:32px;height:35px}.nav-brand{gap:4px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
-  </style>
+  
+    /* Lesbarkeit: größere Grund- und Funktionstypografie auf allen Geräten. */
+    .bodycopy{font-size:17px;line-height:1.85;color:#4b574e}
+    .eyebrow{font-size:12px;letter-spacing:.23em;line-height:1.6}
+    .btn{font-size:13px;line-height:1.4;letter-spacing:.11em;min-height:54px}
+    .nav-links a:not(.btn){font-size:12px;letter-spacing:.1em}
+    .nav .btn{font-size:12px;min-height:46px;padding:12px 17px}
+    .menu-button{font-size:15px}
+    .hero p{font-size:18px;line-height:1.75}
+    .hero-aside{font-size:12px}
+    .art-label{font-size:11px}
+    .ribbon div{font-size:12px;letter-spacing:.12em;line-height:1.6}
+    .text-link{font-size:13px}
+    .image-placeholder{font-size:12px;letter-spacing:.08em}
+    .floating-caption span{font-size:11px}
+    .gallery-card small{font-size:12px;letter-spacing:.12em}
+    .gallery-note{font-size:13px;line-height:1.7}
+    .feature .feature-num{font-size:12px}
+    .feature p{font-size:16px;line-height:1.75;color:#4d5b50}
+    .feature.dark p{color:#d9e0d9}
+    .workation-card span:not(.eyebrow){font-size:14px;line-height:1.75}
+    .price-notes{font-size:14.5px;line-height:1.8}
+    .checks{font-size:16px;line-height:1.65;gap:14px}
+    .region-tab .region-content{font-size:16px;line-height:1.8;color:#e0e8e0}
+    .host details{font-size:16px;line-height:1.8}
+    .host summary{font-size:13px}
+    label{font-size:12px;letter-spacing:.1em}
+    .field input,.field select,.field textarea{font-size:16px;line-height:1.5}
+    .quote{font-size:15px;line-height:1.5}
+    .privacy-note{font-size:13.5px;line-height:1.8;color:#5e685d}
+    .result{font-size:14px;line-height:1.7}
+    .footer p,.footer a{font-size:15px;line-height:1.85}
+    .footer small{font-size:11px}
+    .footer-bottom,.footer-bottom a{font-size:12.5px;line-height:1.7}
+    @media (min-width:761px) and (max-width:1150px){
+      .nav-links{gap:14px}
+      .nav-links a:not(.btn){font-size:11px;letter-spacing:.06em}
+      .nav .btn{font-size:11px;padding:12px 13px}
+    }
+    @media(max-width:760px){
+      .nav-links a:not(.btn){font-size:15px;letter-spacing:.08em}
+      .nav .btn{font-size:13px}
+      .hero p{font-size:16.5px}
+      .ribbon div{font-size:12px;letter-spacing:.065em}
+      .feature p{font-size:16px}
+    }
+    @media(max-width:460px){
+      .quote{flex-direction:column;align-items:flex-start}
+    }
+</style>
 </head>
 <body>
   <a class="skip" href="#main">Zum Inhalt springen</a>
